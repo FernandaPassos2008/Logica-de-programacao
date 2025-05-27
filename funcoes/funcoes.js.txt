@@ -1,0 +1,63 @@
+let usuarioCorreto1 = "fernanda"
+let senhaCorreta1 = "1234"
+
+let usuarioCorreto2 = "egito"
+let senhaCorreta2 = "5432"
+
+let usuarioCorreto3 = "brasil"
+let senhaCorreta3 = "6789"
+
+let usuarioCorreto4 = "filipinas"
+let senhaCorreta4 = "9876"
+
+let usuarioCorreto5 = "espanha"
+let senhaCorreta5 = "3289"
+
+let usuarioCorreto6 = "alemanha"
+let senhaCorreta6 = "3128"
+
+let usuarioCorreto7 = "russia"
+let senhaCorreta7 = "1865"
+
+let usuarioCorreto8 = "china"
+let senhaCorreta8 = "9876"
+
+let usuarioCorreto9 = "japao"
+let senhaCorreta9 = "0987"
+
+let usuarioCorreto10= "india"
+let senhaCorreta10 = "4907"
+let usuario = prompt("Digite a senha de usuario:")
+let senha = prompt("Digite a senha de usuario:")
+
+function login(usuario,senha) {
+    if(usuario ==usuarioCorreto1 && senha ==senhaCorreta1) {
+        console.log("Login realizado com sucesso")
+    } else if(usuario ==usuarioCorreto2 && senha ==senhaCorreta2){
+        console.log("Login realizado com sucesso")
+       } else if(usuario ==usuarioCorreto3 && senha ==senhaCorreta3){
+        console.log("Login realizado com sucesso")
+       } else if(usuario ==usuarioCorreto4 && senha ==senhaCorreta4){
+        console.log("Login realizado com sucesso")
+       } else if(usuario ==usuarioCorreto5 && senha ==senhaCorreta5){
+        console.log("Login realizado com sucesso")
+       } else if(usuario ==usuarioCorreto6 && senha ==senhaCorreta6){
+        console.log("Login realizado com sucesso")
+       } else if(usuario ==usuarioCorreto7 && senha ==senhaCorreta7){
+        console.log("Login realizado com sucesso") 
+       } else if(usuario ==usuarioCorreto8 && senha ==senhaCorreta8){
+        console.log("Login realizado com sucesso")
+       } else if(usuario ==usuarioCorreto9 && senha ==senhaCorreta9){
+        console.log("Login realizado com sucesso")
+       } else if(usuario ==usuarioCorreto10 && senha ==senhaCorreta10){
+        console.log("Login realizado com sucesso")
+    }
+    else {
+        console.log("Usuario ou senha incorretos")
+    }
+}
+
+login(usuario,senha)
+
+
+
