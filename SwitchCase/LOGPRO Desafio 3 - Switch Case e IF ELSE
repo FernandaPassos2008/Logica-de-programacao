@@ -1,0 +1,37 @@
+ECHO est  ativado.
+console.log("Escolha um sistema operacional para começarmos")
+let sistemaOperacional = prompt("  CMD Windows \nTerminal Linux\n:")
+if (sistemaOperacional == "CMD" || "Windows" || "Cmd Windows") {
+console.log("No CMD, temos os seguintes comandos para poder operar dentro do Terminal: del,dir, cd, mkdir, ping, ipconfig,cls,exit,move")
+let terminal = prompt("Digite o comando sobre o qual deseja saber mais: ")
+switch (terminal){
+case "dir":
+console.log("O comando é usado para listar o conteúdo de um diretório, exibindo uma lista dos arquivos e pastas contidos no diretório atual.você pode adicionar parâmetros para filtrar os resultados, como exibir apenas arquivos de um determinado tipo ou listar em ordem alfabética.")
+break
+case "del":
+console.log("O comando é utilizado para excluir arquivos. Você pode especificar o nome do arquivo a ser excluído,como del arquivo.txt.")
+break
+case "cd":
+console.log("O comando (Change Directory) é usado para navegar entre diretórios no sistema de arquivos. Por exemplo, cd C:\Pasta, leva você para a pasta chamada Pasta localizada no disco C.")
+break
+case "mkdir":
+console.log("cria um diretório. Por exemplo,mkdir C:\NovaPasta criará uma nova pasta chamada NovaPasta no disco C.")
+break
+case "ping":
+console.log("O comando ping é usado para verificar a conectividade entre o seu computador e um endereço IP ou nome de domínio específico. Ele envia pacotes de dados para o destino e aguarda uma resposta, o que pode ser útil para diagnosticar problemas de rede ou verificar se um servidor está respondendo.")
+break
+case "exit":
+console.log(" o comando exit é usado para fechar o Terminal do Windows. Quando executado, o CMD será encerrado e você voltará à interface do Windows após encerrar sua sessão de comandos.")
+break
+case "ipconfig":
+console.log("O comando ipconfig exibe informações sobre a configuração de rede do seu computador. Ele mostra o endereço IP, máscara de sub-rede, gateway padrão e outras informações relacionadas à conexão de rede.")
+break
+case "cls":
+console.log("Este comando é usado para limpar a tela do prompt de comando do Windows. Isso remove todo o texto da janela do prompt de comando, proporcionando uma tela limpa.")
+ break
+case "move":
+console.log("Este comando é usado para mover a pasta. por exemplo: C:\nome da mudança.")   
+    
+    
+}
+}

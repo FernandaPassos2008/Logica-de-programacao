@@ -1,0 +1,167 @@
+ECHO est  ativado.
+let respostaCorreta = 0
+let respostaIncorreta = 0
+
+console.log("Quem ganhou como melhor filme em 2025")
+console.log("A - A substancia")
+console.log("B - Anora")
+console.log("C - Ainda estou aqui")
+let pergunta1 = prompt ("Digite a alternativa correta: ")
+switch (true){
+    case pergunta1 == "B" || pergunta1 == "Anora":
+    console.log("Alternativa Correta!\n")
+    respostaCorreta ++
+    break
+    default:
+    console.log("Alternativa Errada!\n")
+    respostaIncorreta ++
+    break
+}
+//pergunta2
+console.log("Qual mes nós estamos?")
+console.log("A - Dezembro")
+console.log("B - Fevereiro")
+console.log("C - Abril")
+let pergunta2 = prompt("Digite a alternativa correta:")
+switch (true){
+    case pergunta2 == "C" || pergunta2 == "Abril":
+    console.log("Alternativa Correta!\n")
+    respostaCorreta ++
+    break
+    default:
+    console.log("Alternativa Errada!\n")
+    respostaIncorreta ++
+    break
+}
+//Pergunta3
+console.log("Qual estado Brasileiro nós vivemos?")
+console.log("A - São Paulo")
+console.log("B - Rio de Janeiro")
+console.log("C - Minas Gerais")
+let pergunta3 = prompt("Digite a alternativa correta:")
+switch (true){
+    case pergunta3 == "A" || pergunta3 == "São Paulo":
+    console.log("Alternativa Correta!\n")
+    respostaCorreta ++
+    break
+    default:
+    console.log("Alternativa Errada!\n")
+    respostaIncorreta ++
+    break
+}
+//Pergunta4
+console.log("Qual o maior planeta do Sistema Solar?")
+console.log("A - Terra")
+console.log("B - Jupiter")
+console.log("C - Saturno")
+let pergunta4 = prompt("Digite a alternativa correta:")
+switch (true){
+    case pergunta4 == "A" || pergunta4 == "Jupiter":
+    console.log("Alternativa Correta!\n")
+    respostaCorreta ++
+    break
+    default:
+    console.log("Alternativa Errada!\n")
+    respostaIncorreta ++
+    break
+}
+//Pergunta5
+console.log("Quantos elementos exitem na Tabela Periodica?")
+console.log("A - 55")
+console.log("B - 118")
+console.log("C - 200")
+let pergunta5 = prompt("Digite a alternativa correta:")
+switch (true){
+    case pergunta5 == "A" || pergunta5 == "118":
+    console.log("Alternativa Correta!\n")
+    respostaCorreta ++
+    break
+    default:
+    console.log("Alternativa Errada!\n")
+    respostaIncorreta ++
+    break
+}
+//Pergunta6
+console.log("Qual a lingua oficial do Brasil?")
+console.log("A - Ingles")
+console.log("B - Japones")
+console.log("C - Portugues")
+let pergunta6 = prompt("Digite a alternativa correta:")
+switch (true){
+    case pergunta6 == "A" || pergunta6 == "Portugues":
+    console.log("Alternativa Correta!\n")
+    respostaCorreta ++
+    break
+    default:
+    console.log("Alternativa Errada!\n")
+    respostaIncorreta ++
+    break
+}
+//Pergunta7
+console.log("Em que ano começou a segunda Guerra mundial?")
+console.log("A - 1941")
+console.log("B - 1935")
+console.log("C - 1960")
+let pergunta7 = prompt("Digite a alternativa correta:")
+switch (true){
+    case pergunta7 == "A" || pergunta7 == "1941":
+    console.log("Alternativa Correta!\n")
+    respostaCorreta ++
+    break
+    default:
+    console.log("Alternativa Errada!\n")
+    respostaIncorreta ++
+    break
+}
+//Pergunta8
+console.log("Qual o maior oceano do mundo?")
+console.log("A - Pacifico")
+console.log("B - Indico")
+console.log("C - Atlantico")
+let pergunta8 = prompt("Digite a alternativa correta:")
+switch (true){
+    case pergunta8 == "A" || pergunta8 == "Pacifico":
+    console.log("Alternativa Correta!\n")
+    respostaCorreta ++
+    break
+    default:
+    console.log("Alternativa Errada!\n")
+    break
+}
+//Pergunta9
+console.log("Quantas cores tem no arco-iris?")
+console.log("A -12")
+console.log("B - 10")
+console.log("C - 7")
+let pergunta9 = prompt("Digite a alternativa correta:")
+switch (true){
+    case pergunta9 == "C" || pergunta9 == "7":
+    console.log("Alternativa Correta!\n")
+    respostaCorreta ++
+    break
+    default:
+    console.log("Alternativa Errada!\n")
+    respostaIncorreta ++
+    break
+}
+//Pergunta9
+console.log("Quem ganhou como melhor atriz no Oscar 2025?")
+console.log("A - Fernanda Torres")
+console.log("B - Mikey Madson")
+console.log("C - Dammi Moore")
+let pergunta10 = prompt("Digite a alternativa correta:")
+switch (true){
+    case pergunta10 == "C" || pergunta10 == "Mikey Madson":
+    console.log("Alternativa Correta!\n")
+    respostaCorreta ++
+    break
+    default:
+    console.log("Alternativa Errada!\n")
+    respostaIncorreta ++
+    break
+}
+
+//Exibir Resultados
+console.log("\n Resumo Final")
+console.log("Resposta Correta" + respostaCorreta)
+console.log("Resposta Incorreta" + respostaIncorreta)

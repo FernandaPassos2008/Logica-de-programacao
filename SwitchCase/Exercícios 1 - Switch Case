@@ -1,0 +1,316 @@
+ECHO est  ativado.
+//Pergunta1
+let idioma = prompt("Escolha um idioma Ingles,Portugues,Frances ou Espanhol: ")
+switch (idioma) {
+        case "Portugues":
+            console.log("Olá! Seja bem-vindo!")
+            break;
+        case "Ingles":
+            console.log("Hello! Welcome!")
+            break
+        case "frances":
+            console.log("Bonjour! Bienvenue!")
+            break
+        case "espanhol":
+            console.log("¡Hola! ¡Bienvenido!")
+            break
+        default:
+            console.log("Idioma não reconhecido. Tente: Portugues, Ingles,Frances ou Espanhol.")
+}
+
+
+//Pergunta2
+let diaDaSemana= 3
+let nomeDoDia
+
+switch (diaDaSemana) {
+  case 1:
+    nomeDoDia = "Domingo"
+    break
+  case 2:
+    nomeDoDia = "Segunda-feira"
+    break
+  case 3:
+    nomeDoDia = "Terça-feira"
+    break
+  case 4:
+    nomeDoDia = "Quarta-feira"
+    break
+  case 5:
+    nomeDoDia = "Quinta-feira"
+    break
+    nomeDoDia = "Sexta-feira"
+    break
+  case 7:
+    nomeDoDia = "Sábado"
+  default:
+    nomeDoDia = "Dia inválido"
+}
+
+console.log("Hoje é " + nomeDoDia)
+
+
+//Pergunta3
+let numeroTransporte = prompt("Digite um número para escolher o transporte (1 - carro, 2 - bicicleta, 3 - ônibus, 4 - trem, 5 - avião):")
+
+switch (numeroTransporte) {
+    case "1":
+        console.log("Você escolheu: Carro")
+        break
+    case "2":
+        console.log("Você escolheu: Bicicleta")
+        break
+    case "3":
+        console.log("Você escolheu: Ônibus")
+        break
+    case "4":
+        console.log("Você escolheu: Trem")
+        break
+    case "5":
+        console.log("Você escolheu: Avião")
+        break
+    default:
+        console.log("Opção inválida. Digite um número de 1 a 5.")
+        break
+}
+
+
+//Pergunta4
+let nivelUrgencia = prompt("Digite o nível de urgência (1 - Baixa, 2 - Média, 3 - Alta):")
+
+switch (nivelUrgencia) {
+    case "1":
+        console.log("Urgência: Baixa")
+        break
+    case "2":
+        console.log("Urgência: Média")
+        break
+    case "3":
+        console.log("Urgência: Alta")
+        break
+    default:
+        console.log("Valor inválido. Digite 1, 2 ou 3.")
+        break
+}
+
+
+//Pergunta5
+let numeroMes = prompt("Digite o número do mês (1 a 12):")
+
+switch (numeroMes) {
+    case "1":
+    case "7":
+        console.log("Fase da Lua: Lua Nova")
+        break
+    case "2":
+    case "8":
+        console.log("Fase da Lua: Quarto Crescente")
+        break
+    case "3":
+    case "9":
+        console.log("Fase da Lua: Lua Cheia")
+        break
+    case "4":
+    case "10":
+        console.log("Fase da Lua: Quarto Minguante")
+        break
+    case "5":
+    case "11":
+        console.log("Fase da Lua: Lua Nova")
+        break
+    case "6":
+    case "12":
+        console.log("Fase da Lua: Lua Cheia")
+        break
+    default:
+        console.log("Valor inválido. Digite um número de 1 a 12.")
+        break
+}
+
+//Pergunta6
+let categoriaVeiculo = prompt("Digite a categoria do veículo (compacto, SUV, caminhão):")
+
+switch (categoriaVeiculo) {
+    case "compacto":
+        console.log("Veículos Compactos: Fiat Mobi, Renault Kwid, Chevrolet Onix")
+        break
+    case "suv":
+        console.log("SUVs: Jeep Renegade, Toyota Corolla Cross, Hyundai Creta")
+        break
+    case "caminhão":
+        console.log("Caminhões: Volvo FH, Scania R440, Mercedes-Benz Actros")
+        break
+    default:
+        console.log("Categoria inválida. Tente: compacto, SUV ou caminhão.")
+        break
+}
+
+
+//Pergunta7
+let tempo = prompt("Quantas horas foram permanecidas no local? ")
+switch (tempo) {
+    case "1" :
+    case "2":
+    case "3" :
+        console.log("R$ 05,00")
+        break
+    case "4":
+    case "5" :
+    case "6" :
+    case "7" :
+        console.log("R$ 10,00")
+        break
+    case "8" :
+        console.log("R$ 20,00")
+        break
+    default:
+    console.log("O valor excedeu as horas e será cobrado R$40,00 do valor da diária")
+}
+
+
+//Pergunta8
+let nivelDificuldade = prompt("Digite o nível de dificuldade (1 - Fácil, 2 - Médio, 3 - Difícil):")
+
+switch (nivelDificuldade) {
+    case "1":
+        console.log("Dificuldade: Fácil")
+        break
+    case "2":
+        console.log("Dificuldade: Médio")
+        break
+    case "3":
+        console.log("Dificuldade: Difícil")
+        break
+    default:
+        console.log("Valor inválido. Digite 1, 2 ou 3.")
+        break
+}
+
+
+//Pergunta9
+let categoriaServico = prompt("Digite a categoria do serviço (aula de yoga, musculação, personal trainer):")
+
+switch (categoriaServico) {
+    case "aula de yoga":
+        console.log("Serviço: Aula de Yoga - Melhora a flexibilidade e o bem-estar.")
+        break
+    case "musculação":
+        console.log("Serviço: Musculação - Treinamento com pesos para ganho de massa muscular.")
+        break
+    case "personal trainer":
+        console.log("Serviço: Personal Trainer - Acompanhamento individual com profissional especializado.")
+        break
+    default:
+        console.log("Categoria inválida. Tente: aula de yoga, musculação ou personal trainer.")
+        break
+}  
+
+
+//Pergunta10
+let categoriaIngresso = prompt("Digite a categoria do ingresso (estudante, meia entrada, inteira):")
+
+switch (categoriaIngresso) {
+    case "estudante":
+        console.log("Preço do ingresso: R$ 15,00")
+        break
+    case "meia entrada":
+        console.log("Preço do ingresso: R$ 20,00")
+        break
+    case "inteira":
+        console.log("Preço do ingresso: R$ 40,00")
+        break
+    default:
+        console.log("Categoria inválida. Tente: estudante, meia entrada ou inteira.")
+        break
+}
+
+
+//Pergunta11
+let idade = prompt("Digite sua idade:")
+
+if (idade < 18) {
+    console.log("Dificuldade recomendada: Leve - foco em exercícios lúdicos e educativos.")
+} else if (idade >= 18 && idade <= 40) {
+    console.log("Dificuldade recomendada: Moderada a Intensa - treino funcional, HIIT, musculação.")
+} else if (idade > 40 && idade <= 60) {
+    console.log("Dificuldade recomendada: Moderada - exercícios de resistência e alongamento.")
+} else if (idade > 60) {
+    console.log("Dificuldade recomendada: Leve a Moderada - caminhadas, hidroginástica, pilates.")
+} else {
+    console.log("Idade inválida. Digite um número válido.")
+}
+
+
+//pergunta12
+let generoMusical = prompt("Digite um gênero musical (rock, clássico, samba, eletrônico):")
+
+switch (generoMusical) {
+    case "rock":
+        console.log("Instrumentos comuns no Rock: Guitarra elétrica, bateria, baixo.")
+        break
+    case "clássico":
+        console.log("Instrumentos comuns na Música Clássica: Violino, piano, violoncelo.")
+        break
+    case "samba":
+        console.log("Instrumentos comuns no Samba: Pandeiro, cavaquinho, surdo.")
+        break
+    case "eletrônico":
+        console.log("Instrumentos comuns na Música Eletrônica: Sintetizadores, controladores MIDI, computadores.")
+        break
+    default:
+        console.log("Gênero musical inválido. Tente: rock, clássico, samba ou eletrônico.")
+        break
+}
+
+
+//Pergunta13
+let areaTecnologia = prompt("Digite a área de interesse (front-end, back-end, mobile):")
+
+switch (areaTecnologia.toLowerCase()) {
+    case "front-end":
+        console.log("Cursos disponíveis para Front-end: HTML, CSS, JavaScript, React")
+        break;
+    case "back-end":
+        console.log("Cursos disponíveis para Back-end: Node.js, Java, Python, Banco de Dados")
+        break
+    case "mobile":
+        console.log("Cursos disponíveis para Mobile: Flutter, React Native, Kotlin, Swift")
+        break
+    default:
+        console.log("Área inválida. Tente: front-end, back-end ou mobile.")
+        break
+}
+
+
+//Pergunta14
+let idadeAtleta = prompt("Digite a idade do atleta:")
+
+if (idadeAtleta < 12) {
+    console.log("Nível de habilidade: Iniciante - ideal para atividades recreativas e fundamentos do esporte.")
+} else if (idadeAtleta >= 12 && idadeAtleta < 18) {
+    console.log("Nível de habilidade: Intermediário - treinamento técnico e desenvolvimento físico.")
+} else if (idadeAtleta >= 18 && idadeAtleta <= 35) {
+    console.log("Nível de habilidade: Avançado - alta performance e competições.")
+} else if (idadeAtleta > 35) {
+    console.log("Nível de habilidade: Master - foco em condicionamento e bem-estar com técnicas adaptadas.")
+} else {
+    console.log("Idade inválida. Digite um número válido.")
+}
+
+
+//Pergunta15
+let categoriaDesafio = prompt("Digite a categoria do desafio matemático (básico, intermediário, avançado):")
+switch (categoriaDesafio.toLowerCase()) {
+    case "básico":
+        console.log("Desafio: Operações simples como adição, subtração, multiplicação e divisão.")
+        break
+    case "intermediário":
+        console.log("Desafio: Frações, porcentagens, problemas de lógica.")
+        break
+    case "avançado":
+        console.log("Desafio: Álgebra, equações, funções e problemas complexos.")
+        break
+    default:
+        console.log("Categoria inválida. Tente: básico, intermediário ou avançado.")
+        break
+}
