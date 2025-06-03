@@ -1,0 +1,43 @@
+ Atividade 1 - Vari veis.js
+1 /*let nome = (&quot;fernanda&quot;)
+console.log(nome)*/
+
+2 /*let idade = 16
+console.log(16)*/
+
+3 /*let aprendendoJavaScript = true
+console.log(aprendendoJavaScript)*/
+
+4 /*let numero1 = 10;
+let numero2 = 20
+// Somando as variáveis
+let soma = numero1 + numero2;
+// Exibindo o resultado no console
+console.log (&quot;A soma é:&quot;, soma) */
+
+5 /*let nome= &quot;fernanda&quot;
+let sobrenome = &quot;Vitoria&quot;
+let soma = (nome + sobrenome)
+console.log(soma)*/
+
+6 /*let numero1 = 5
+let numero2 = 7
+let multiplicacao = numero1 * numero2
+console.log(&quot;O resultado da multiplicação é:&quot;, multiplicacao)*/
+
+7 /*let cidade = &quot;São Paulo&quot;
+let habitantes = 12378
+
+console.log(&quot;São Paulo:&quot;, cidade)
+console.log(&quot;12378:&quot;, habitantes)*/
+
+8 /*let preco = 50
+console.log(&quot;Valor inicial do preço:&quot;, preco)
+preco = 75
+console.log(&quot;Valor alterado do preço:&quot;, preco)*/
+
+9 /*let meuValor
+console.log(meuValor)*/
+
+10 /*let meuNulo = (&quot;nu11&quot;)
+console.log(meuNulo)*/
