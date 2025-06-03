@@ -1,0 +1,163 @@
+ECHO est  ativado.
+1
+/*function saudacao() {
+console.log(&#39;Olá, Mundo!&#39;)
+}
+saudacao()*/
+
+2
+/*function mostrarNome() {
+let nome = prompt(&quot;Qual seu nome completo?&quot;)
+console.log(&quot;Seu nome é &quot; + nome)
+}
+mostrarNome()*/
+
+3
+/*function mostrarIdade(idade) {
+console.log(`Eu tenho, ${idade}!`)
+}
+mostrarIdade(&quot;16 anos de idade&quot;)//Tenho 16*/
+
+4
+/*function somar(a, b) {
+return a + b
+}
+console.log(somar(80, 799))
+console.log(somar(6, 6)) */
+
+5
+/*function mostrarMensagem() {
+console.log(&#39;Ninguem tira o estudo de voce!&#39;)
+}
+mostrarMensagem()*/
+
+6
+/*function mostrarData() {
+console.log(&#39;6 de Maio de 2025&#39;)
+}
+mostrarData()*/
+
+7
+/*function mostrarCidade() {
+let cidade = prompt(&quot;Digite sua cidade:&quot;)
+}
+mostrarCidade()*/
+
+8
+/*function saudacao(nome) {
+console.log(`Bem-vindo!, ${nome}!`)
+}
+saudacao(&#39;Fernanda&#39;) // Bem-vindo, Fernanda!*/
+
+9
+/*function subtrair(a, b) {
+return a - b
+}
+console.log(subtrair(988,6))
+console.log(subtrair(6,6))*/
+
+10
+/*function potencia(a, b) {
+return a ** b
+}
+console.log(potencia(988,6))
+console.log(potencia(6, 6))*/
+
+6
+/*function saudacao(nome) {
+console.log(`Bem-vindo!, ${nome}!`)
+}
+saudacao(&#39;Fernanda&#39;) // Bem-vindo, Fernanda!*/
+
+7
+/*function mostrarIdade(idade) {
+console.log(`Eu tenho, ${idade}!`)
+}
+mostrarIdade(&quot;16 anos de idade&quot;)//Tenho 16*/
+
+8
+/*function mostrarMensagem() {
+console.log(&#39;Ninguem tira o estudo de voce!&#39;)
+}
+mostrarMensagem()*/
+
+9
+/*function mostrarData() {
+console.log(&#39;6 de Maio de 2025&#39;)
+}
+mostrarData()*/
+
+10
+/*function mostrarCidade() {
+let cidade = prompt(&quot;Digite sua cidade:&quot;)
+}
+mostrarCidade()*/
+
+11
+/*function mostrarAnimalFavorito() {
+let Animal = prompt(&quot;Digite seu Animal Favorito:&quot;)
+}
+mostrarAnimalFavorito()*/
+
+12
+/*function saudacao() {
+console.log(&#39;Estou aprendendo Java Script!&#39;)
+}
+saudacao()*/
+
+13
+/*function potencia(a, b) {
+return a ** b
+}
+console.log(potencia(988,6))
+console.log(potencia(6, 6))*/
+
+13
+/*function informacoes(){
+let nome = prompt(&quot;Qual é o seu nome?&quot;)
+let idade = prompt(&quot;Qual é a sua idade?&quot;)
+console.log(&quot;Voce se chama&quot;, nome ,&quot;e tem&quot;, 16,
+&quot;anos de idade&quot;)
+}
+informacoes()*/
+
+14
+/*function numeros(){
+console.log(&quot;1 2 3 4 5 6 7 8 9 10&quot;)
+}
+
+numeros()*/
+
+15
+/*function saudacao() {
+console.log(&#39;Aula de funçoes iniciada!&#39;)
+}
+saudacao()*/
+
+16
+/*function curso(){
+let curso = prompt(&quot;Qual curso voce faz?&quot;)
+console.log(&quot;O curso é&quot;, curso)
+}
+curso()*/
+
+17
+/*function chamada(){
+let chamada = prompt(&quot;Insira o seu nome:&quot;)
+console.log(chamada,&quot;está na chamada&quot;)
+}
+chamada()*/
+
+18
+/*function cor(){
+let cor = prompt(&quot;Qual sua cor favorita? &quot;)
+console.log(&quot;Sua cor favorita é&quot;, cor)
+}
+cor()*/
+
+19
+/*function país(){
+let país = prompt(&quot;Qual pais voce mora? &quot;)
+console.log(&quot;Voce mora no&quot;, país)
+}
+país()*/
