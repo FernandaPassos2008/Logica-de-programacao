@@ -1,0 +1,243 @@
+ECHO est  ativado.
+let respostaCorreta = 0
+let respostaIncorreta = 0
+
+//Pergunta1
+console.log("Quem ganhou melhor filme no Oscar de 2025?")
+console.log("A - Ainda estou aqui")
+console.log("B - Anora")
+console.log("C - A substancia")
+console.log("D - Conclave")
+let pergunta1 = prompt("Digite a alternativa correta: ")
+if(pergunta1 == "B" || pergunta1 =="Anora"){
+    console.log("Alternativa Correta!")
+    respostaCorreta ++
+}else{
+    console.log("Alternativa Errada!")
+    respostaIncorreta ++
+}
+
+//Exibir Resultado
+console.log("\n Resumo Final")
+console.log("Respostas Corretas " + respostaCorreta)
+console.log("Respostas Incorretas " + respostaIncorreta)
+Imagem 2 - Pergunta 2
+javascript
+Copiar
+Editar
+let respostaCorreta = 0
+let respostaIncorreta = 0
+
+//Pergunta2
+console.log("Que mes nós estamos?")
+console.log("A - Dezembro")
+console.log("B - Março")
+let pergunta2 = prompt("Digite a alternativa correta:")
+if(pergunta2 == "B" || pergunta2 =="Março"){
+    console.log("Alternativa Correta!")
+    respostaCorreta ++
+}else{
+    console.log("Alternativa Errada!")
+    respostaIncorreta ++
+}
+
+//Exibir Resultado
+console.log("\n Resumo Final")
+console.log("Respostas Corretas " + respostaCorreta)
+console.log("Resposta Incorretas " + respostaIncorreta)
+Imagem 3 - Pergunta 3
+javascript
+Copiar
+Editar
+let respostaCorreta = 0
+let respostaIncorreta = 0
+
+//Pergunta3
+console.log("Qual estado Brasileiro nós vivemos?")
+console.log("A - Sao Paulo")
+console.log("B - Rio de janeiro")
+let pergunta3 = prompt("Digite a alternativa correta:")
+if(pergunta3 == "B" || pergunta3 =="São Paulo"){
+    console.log("Alternativa Correta!")
+    respostaCorreta ++
+}else{
+    console.log("Alternativa Errada!")
+    respostaIncorreta ++
+}
+
+//Exibir Resultados
+console.log("\n Resumo Final")
+console.log("Resposta Correta " + respostaCorreta)
+console.log("Resposta Incorreta " + respostaIncorreta)
+Imagem 4 - Pergunta 4
+javascript
+Copiar
+Editar
+let respostaCorreta = 0
+let respostaIncorreta = 0
+
+// Pergunta 4
+console.log("1. Qual é o maior planeta do Sistema Solar?")
+console.log("A - Terra")
+console.log("B - Júpiter")
+console.log("C - Saturno")
+let pergunta4 = prompt("Digite a alternativa correta:")
+if(pergunta4 == "B" || pergunta4 == "Júpiter"){
+    console.log("Alternativa Correta")
+    respostaCorreta ++
+} else {
+    console.log("Alternativa Errada!")
+    respostaIncorreta ++
+}
+
+//Exibir Resultados
+console.log("\n Resumo Final")
+console.log("Resposta Correta " + respostaCorreta)
+console.log("Resposta Incorreta " + respostaIncorreta)
+Imagem 5 - Pergunta 5
+javascript
+Copiar
+Editar
+let respostaCorreta = 0
+let respostaIncorreta = 0
+
+// Pergunta 5
+console.log("1. Quantas elementos existem na tabela periodica?")
+console.log("A - 53")
+console.log("B - 118")
+console.log("C - 200")
+let pergunta5 = prompt("Digite a alternativa correta:")
+if(pergunta5 == "B" || pergunta5 == "118"){
+    console.log("Alternativa Correta")
+    respostaCorreta ++
+} else {
+    console.log("Alternativa Errada!")
+    respostaIncorreta ++
+}
+
+//Exibir Resultados
+console.log("\n Resumo Final")
+console.log("Resposta Correta " + respostaCorreta)
+console.log("Resposta Incorreta " + respostaIncorreta)
+
+let respostaCorreta = 0
+let respostaIncorreta = 0
+
+// Pergunta 11
+console.log("Qual o maior planeta do sistema solar?")
+console.log("A - Marte")
+console.log("B - Terra")
+console.log("C - Júpiter")
+let pergunta11 = prompt("Digite a alternativa correta:")
+if(pergunta11 == "C" || pergunta11 == "Júpiter"){
+    console.log("Alternativa Correta")
+    respostaCorreta++
+} else {
+    console.log("Alternativa Errada!")
+    respostaIncorreta++
+}
+
+// Exibir Resultados
+console.log("\nResumo Final")
+console.log("Resposta Correta: " + respostaCorreta)
+console.log("Resposta Incorreta: " + respostaIncorreta)
+Pergunta 12:
+javascript
+Copiar
+Editar
+let respostaCorreta = 0
+let respostaIncorreta = 0
+
+// Pergunta 12
+console.log("Qual o menor país do mundo?")
+console.log("A - Vaticano")
+console.log("B - Mônaco")
+console.log("C - Nauru")
+let pergunta12 = prompt("Digite a alternativa correta:")
+if(pergunta12 == "A" || pergunta12 == "Vaticano"){
+    console.log("Alternativa Correta")
+    respostaCorreta++
+} else {
+    console.log("Alternativa Errada!")
+    respostaIncorreta++
+}
+
+// Exibir Resultados
+console.log("\nResumo Final")
+console.log("Resposta Correta: " + respostaCorreta)
+console.log("Resposta Incorreta: " + respostaIncorreta)
+Pergunta 13:
+javascript
+Copiar
+Editar
+let respostaCorreta = 0
+let respostaIncorreta = 0
+
+// Pergunta 13
+console.log("Quem pintou a Mona Lisa?")
+console.log("A - Van Gogh")
+console.log("B - Picasso")
+console.log("C - Leonardo da Vinci")
+let pergunta13 = prompt("Digite a alternativa correta:")
+if(pergunta13 == "C" || pergunta13 == "Leonardo da Vinci"){
+    console.log("Alternativa Correta")
+    respostaCorreta++
+} else {
+    console.log("Alternativa Errada!")
+    respostaIncorreta++
+}
+
+// Exibir Resultados
+console.log("\nResumo Final")
+console.log("Resposta Correta: " + respostaCorreta)
+console.log("Resposta Incorreta: " + respostaIncorreta)
+Pergunta 14:
+javascript
+Copiar
+Editar
+let respostaCorreta = 0
+let respostaIncorreta = 0
+
+// Pergunta 14
+console.log("Quem escreveu Dom Quixote?")
+console.log("A - Miguel de Cervantes")
+console.log("B - José Saramago")
+console.log("C - Fernando Pessoa")
+let pergunta14 = prompt("Digite a alternativa correta:")
+if(pergunta14 == "A" || pergunta14 == "Miguel de Cervantes"){
+    console.log("Alternativa Correta")
+    respostaCorreta++
+} else {
+    console.log("Alternativa Errada!")
+    respostaIncorreta++
+}
+
+// Exibir Resultados
+console.log("\nResumo Final")
+console.log("Resposta Correta: " + respostaCorreta)
+console.log("Resposta Incorreta: " + respostaIncorreta)
+Pergunta 15:
+javascript
+Copiar
+Editar
+let respostaCorreta = 0
+let respostaIncorreta = 0
+
+// Pergunta 15
+console.log("Em que continente fica o Egito?")
+console.log("A - Ásia")
+console.log("B - África")
+console.log("C - Europa")
+let pergunta15 = prompt("Digite a alternativa correta:")
+if(pergunta15 == "B" || pergunta15 == "África"){
+    console.log("Alternativa Correta")
+    respostaCorreta++
+} else {
+    console.log("Alternativa Errada!")
+    respostaIncorreta++
+}
+
+// Exibir Resultados
+console.log("\nResumo Final")
+console.log("Resposta Correta: " + respostaCorreta)
+console.log("Resposta Incorreta: " + respostaIncorreta)
